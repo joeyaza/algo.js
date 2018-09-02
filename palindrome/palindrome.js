@@ -1,4 +1,3 @@
-
 const palindrome = (str) => {
 
 	const revStr = str.split('').reverse().join('');
