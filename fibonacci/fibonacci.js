@@ -26,4 +26,6 @@ const fibonacci2 = (int) => {
 
 };
 
+
+
 module.exports = fibonacci;
