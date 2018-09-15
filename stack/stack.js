@@ -12,7 +12,7 @@ class Node {
 
 class Stack {
 
-    constructor(){
+    constructor() {
 
         this.first = null;
 
@@ -22,7 +22,7 @@ class Stack {
 
     }
 
-    push(val){
+    push(val) {
 
         let newNode = new Node(val);
 
@@ -46,7 +46,7 @@ class Stack {
 
     }
 
-    pop(){
+    pop() {
 
         if(!this.first) return null;
 

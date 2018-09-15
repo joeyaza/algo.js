@@ -1,5 +1,3 @@
-
-
 const bubbleSort = arr => {
 
 	let noSwaps;
@@ -23,7 +21,7 @@ const bubbleSort = arr => {
 			}
 
 		}
-		
+
 		if (noSwaps) break;
 
 	}
