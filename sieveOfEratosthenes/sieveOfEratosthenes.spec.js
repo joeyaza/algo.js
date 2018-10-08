@@ -6,7 +6,7 @@ describe("SieveOfEratosthenes", () => {
 
 	describe("when 10 is input", () => {
 
-		it("should return 2, 3, 5, 7", () => {
+		it("should return 0, 1, 2, 3, 5, 7", () => {
 
 			const test = sieveOfEratosthenes(10);
 
